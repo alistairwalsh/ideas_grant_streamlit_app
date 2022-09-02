@@ -14,12 +14,11 @@ st.title("hello")
 
 data = {
     'token': 'C0ADB9762F115D7200E32784AAE3E3D0',
-    'content': 'project',
+    'content': 'metadata',
     'format': 'json',
     'returnFormat': 'json'
 }
-#r = requests.post('https://redcap.latrobe.edu.au/redcap/api/',data=data)
-#print('HTTP Status: ' + str(r.status_code))
-#print(r.json())
-
+r = requests.post('https://redcap.latrobe.edu.au/redcap/api/',data=data)
+st.write('HTTP Status: ' + str(r.status_code))
+st.write(r.json())
 st.write(data)
