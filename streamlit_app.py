@@ -1,6 +1,7 @@
 
 import streamlit as st
 from streamlit_webrtc import webrtc_streamer
+import cv2
 import pandas as pd
 import numpy as np
 import requests
@@ -10,7 +11,13 @@ from io import StringIO
 
 st.title("hello")
 
-webrtc_streamer(key="example")
+def video_frame_callback(frame):
+    img = frame.to_ndarray(format="bgr24")
+
+    return av.VideoFrame.from_ndarray(img, format="bgr24")
+
+
+webrtc_streamer(key="example", video_frame_callback=video_frame_callback)
 
 # df = pd.read_csv(StringIO(r.text))
 # df
