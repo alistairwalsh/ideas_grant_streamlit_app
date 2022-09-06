@@ -14,3 +14,9 @@ https://github.com/mkhorasani/Streamlit-Authenticator
 https://towardsdatascience.com/how-to-add-a-user-authentication-service-in-streamlit-a8b93bf02031
 
 user login and password
+
+
+https://github.com/whitphx/streamlit-webrtc-example
+
+https://www.whitphx.info/posts/20211231-streamlit-webrtc-video-app-tutorial/
+video input
