@@ -47,6 +47,7 @@ import mediapipe as mp
 
 def video_frame_callback(frame):
     image = frame.to_ndarray(format="bgr24")
+    results = hands.process(image)
 
     return av.VideoFrame.from_ndarray(img, format="bgr24")
 
