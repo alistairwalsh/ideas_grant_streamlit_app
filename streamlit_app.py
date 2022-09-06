@@ -10,13 +10,7 @@ from io import StringIO
 
 st.title("hello")
 
-def video_frame_callback(frame):
-    img = frame.to_ndarray(format="bgr24")
-
-    return av.VideoFrame.from_ndarray(img, format="bgr24")
-
-
-webrtc_streamer(key="example", video_frame_callback=video_frame_callback)
+webrtc_streamer(key="sample")
 
 # df = pd.read_csv(StringIO(r.text))
 # df
