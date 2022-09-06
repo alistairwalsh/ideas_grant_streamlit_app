@@ -12,6 +12,11 @@ st.title("hello")
 # df = pd.read_csv(StringIO(r.text))
 # df
 
+picture = st.camera_input("Take a picture")
+
+if picture:
+     st.image(picture)
+
 data = {
     'token': 'C0ADB9762F115D7200E32784AAE3E3D0',
     'content': 'metadata',
