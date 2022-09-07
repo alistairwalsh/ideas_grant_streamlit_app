@@ -1,5 +1,5 @@
 google-cloud-storage
 streamlit_webrtc
 opencv-python-headless
-opencv-python
+opencv
 mediapipe
