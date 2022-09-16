@@ -27,3 +27,14 @@ hands with streamlit-webrtc and media pipe
 https://github.com/whitphx/Tokyo2020-Pictogram-using-MediaPipe/blob/streamlit-app/streamlit_app.py
 
 mediapipe from whitphx
+
+https://towardsdatascience.com/developing-web-based-real-time-video-audio-processing-apps-quickly-with-streamlit-7c7bcd0bc5a8
+
+tutorial from start
+
+https://www.assemblyai.com/blog/mediapipe-for-dummies/
+
+general mediapipe
+
+https://github.com/AssemblyAI-Examples/mediapipe-python/blob/main/requirements.txt
+mediapipe tutorial - requirements
