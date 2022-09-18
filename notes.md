@@ -38,3 +38,9 @@ general mediapipe
 
 https://github.com/AssemblyAI-Examples/mediapipe-python/blob/main/requirements.txt
 mediapipe tutorial - requirements
+
+https://github.com/Outsiders17711/streamlit-Mediapipe-WebApp/blob/main/demo/streamlitMediapipe.gif?raw=true
+
+working?
+
+https://github.com/Outsiders17711/streamlit-Mediapipe-WebApp/blob/main/requirements.txt
