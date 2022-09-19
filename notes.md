@@ -44,3 +44,10 @@ https://github.com/Outsiders17711/streamlit-Mediapipe-WebApp/blob/main/demo/stre
 working?
 
 https://github.com/Outsiders17711/streamlit-Mediapipe-WebApp/blob/main/requirements.txt
+
+https://docs.streamlit.io/knowledge-base/tutorials/deploy/docker
+
+docker streamlit
+
+https://itsmycode.com/importerror-libgl-so-1-cannot-open-shared-object-file-no-such-file-or-directory/
+
